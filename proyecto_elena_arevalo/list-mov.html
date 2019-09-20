@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/ab60dce2b9.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 pt-4 pb-4">
+                <h3 class="h3 text-center pb-4">Lista de movimientos</h3>
+                <!-- <form id="contact-id">
+                    <div class="form-group text-center">
+                        <label class="">
+                            ID
+                        </label>
+                        <input type="text" id="buscar" name="id" class="form-control inp-form"
+                            placeholder="buscar por palabra clave">
+                    </div>
+                    <div class="clearfix"></div>
+                </form> -->
+                <div class="listado2 text-center pb-5">
+                    <ul id="lista-movimiento" class="pl-0 ml-0 no-pointer">
+                        <!-- <li class="contact"><i class="fas fa-address-card"></i> "nombre contacto" + "apellido contacto" </li>
+                            <li class="contact"><i class="fas fa-address-card"></i> "nombre contacto" + "apellido contacto" </li>
+                            <li class="contact"><i class="fas fa-address-card"></i> "nombre contacto" + "apellido contacto" </li>
+                            <li class="contact"><i class="fas fa-address-card"></i> "nombre contacto" + "apellido contacto" </li> -->
+                    </ul>
+                </div>
+                <!--   <button id="btn-logout" href="" class="btn btn-outline-secondary w-100 mb-2 mt-3 d-none">Log
+                    out</button>
+                <div class="fixed-add text-center">
+                    <button id="btn-ir-add" type="button" class="btn btn-primary w-100 mb-2 mt-2 pt-2 pb-2">Agregar
+                        contacto <i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+                </div>
+                <div class="clearfix"></div> -->
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Registro de Pago</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" id="form-pago">
+                        <div class="form-group">
+                            <label for="">Contacto: </label>
+                            <input type="text" class="form-control" id="inp-nombre-contacto" name="nombre_completo"
+                                disabled>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Teléfono: </label>
+                            <input type="text" class="form-control" id="inp-telefono-contacto" name="telefono"
+                                disabled="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Monto a Pagar: </label>
+                            <input type="number" class="form-control" id="inp-monto-pago" name="monto">
+                        </div>
+                        <button type="button" class="btn btn-outline-secondary float-left">Cancelar</button>
+                        <button id="registar-pago" type="button" class="btn btn-info float-right">Registar Pago</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-add text-center">
+        <button id="btn-ir-lista" type="button" class="btn btn-primary w-100 mb-2 mt-2 pt-2 pb-2">Ver contactos <i
+                class="fas fa-chevron-right" aria-hidden="true"></i></button>
+    </div>
+
+    <script src="js/list-mov.js"></script>
+    <script src="js/clases/usuario.js">
+    </script>
+</body>
+</html>

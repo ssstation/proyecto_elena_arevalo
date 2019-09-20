@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ab60dce2b9.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 pt-4 pb-4">
+                <h3 class="h3 text-center pb-4">Agregar contactos</h3>
+                <form id="datos-contacto">
+                    <div class="form-group text-center">
+                        <label class="">
+                            Nombres
+                        </label>
+                        <input type="text" id="inp-nombres" name="nombres" class="form-control inp-form"
+                            placeholder="Ingresa los nombres">
+                    </div>
+                    <div class="form-group text-center">
+                        <label>
+                            Apellidos
+                        </label>
+                        <input type="text" id="inp-apellidos" name="apellidos" class="form-control inp-form"
+                            placeholder="Ingresa los apellidos">
+                    </div>
+                    <div class="form-group text-center">
+                        <label>
+                            Apellidos
+                        </label>
+                        <input type="text" id="inp-contacto-telefono" name="telefono" class="form-control inp-form"
+                            placeholder="Ingresa el telefono">
+                    </div>
+                    <div class="form-group text-center">
+                        <label>
+                            Apellidos
+                        </label>
+                        <input type="text" id="inp-id-usuario" name="id_usuario" class="form-control inp-form"
+                            placeholder="Ingresa el id de usuario">
+                    </div>
+
+                    <div id="container-alert">
+                    </div>
+                    
+                    <button id="btn-registrar-contacto" type="button" class="btn btn-info w-100 mb-2 mt-2">Registrar
+                        contacto</button>
+                    <button id="btn-limpiar" type="button"
+                        class="btn btn-outline-secondary w-100 mb-2 mt-2">Limpiar</button>
+
+
+                    <div class="clearfix"></div>
+                    <div class="fixed-add text-center">
+                        <button id="btn-ir-lista" type="button" class="btn btn-primary w-100 mb-2 mt-2 pt-2 pb-2">Ver
+                            contactos <i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main-add.js"></script>
+    <script src="js/clases/usuario.js"></script>
+</body>
+
+</html>

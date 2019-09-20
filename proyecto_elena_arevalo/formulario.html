@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 pt-4 pb-4">
+                <h3 class="h3 text-center pb-4">Registro</h3>
+                <form id="datos-formulario">
+                    <div class="form-group text-center">
+                        <label class="">
+                            Nombres
+                        </label>
+                        <input type="text" id="inp-nombres" name="nombres" class="form-control inp-form"
+                            placeholder="Ingresa tus nombres">
+                    </div>
+                    <div class="form-group text-center">
+                        <label>
+                            Apellidos
+                        </label>
+                        <input type="text" id="inp-apellidos" name="apellidos" class="form-control inp-form"
+                            placeholder="Ingresa tus apellidos">
+                    </div>
+
+                    <div class="form-group text-center">
+                        <label class="">
+                            Password
+                        </label>
+                        <input type="text" id="inp-telefono" name="password" class="form-control inp-form"
+                            placeholder="Ingresa tu password">
+                    </div>
+                    <div class="form-group text-center">
+                        <label>
+                            Correo
+                        </label>
+                        <input type="text" id="inp-correo" name="correo" class="form-control inp-form"
+                            placeholder="Ingresa tus correo">
+                    </div>
+
+                    <div id="container-alert">
+                    </div>
+
+
+                    <button id="btn-registrar" type="button" class="btn btn-info w-100 mb-2 mt-2">Registrar</button>
+                    <button id="btn-limpiar" type="button"
+                        class="btn btn-outline-secondary w-100 mb-2 mt-2">Limpiar</button>
+                    <!-- <button id="btn-base" type="button" class="btn btn-outline-light w-100 mb-2 mt-2">Ver base</button> -->
+
+                    <div class="clearfix"></div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main-formulario.js"></script>
+    <script src="js/clases/usuario.js"></script> 
+</body>
+ </html>

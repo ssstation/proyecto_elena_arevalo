@@ -1,0 +1,197 @@
+body {
+    background: rgba(28, 216, 210, 0.39);
+    background: -webkit-linear-gradient(to right, rgba(229, 93, 135, 0.52), rgba(95, 195, 228, 0.54));
+    background: -webkit-gradient(linear, left top, right top, from(rgba(229, 93, 135, 0.52)), to(rgba(95, 195, 228, 0.54)));
+    background: -webkit-linear-gradient(left, rgba(229, 93, 135, 0.52), rgba(95, 195, 228, 0.54));
+    background: -o-linear-gradient(left, rgba(229, 93, 135, 0.52), rgba(95, 195, 228, 0.54));
+    background: linear-gradient(to right, rgba(229, 93, 135, 0.52), rgba(95, 195, 228, 0.54));
+    font-family: "Fira sans";
+}
+
+.container {
+    font-family: 'Fira sans', sans-serif;
+}
+
+body p {
+    font-size: 15px;
+}
+
+.btn {
+    -webkit-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+}
+
+h3 {
+    color: #1c2833;
+    font-family: 'Fira sans', sans-serif;
+    font-weight: 700;
+}
+
+label {
+    display: none;
+    color: #555;
+    font-family: 'Fira sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+input.form-control {
+    font-family: 'Fira sans', sans-serif;
+    color: #333;
+    font-weight: 300;
+    text-align: center;
+    background-color: #ffffffc9;
+    font-size: 15px;
+}
+
+input.form-control:hover, input.form-control:focus {
+    background-color: #fff;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: #777;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+    color: #777;
+}
+
+::-ms-input-placeholder {
+    text-align: center;
+    color: #777;
+}
+
+::placeholder {
+    text-align: center;
+    color: #777;
+}
+
+:placeholder {
+    text-align: center;
+    color: #777;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    letter-spacing: .5px;
+}
+
+.btn-info {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .01);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .01);
+}
+
+.btn-info:hover {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .05) !important;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .05) !important;
+}
+
+.listado2 ul {
+    list-style: none;
+    color: #555;
+    font-size: 15px;
+}
+
+.listado2 ul li {
+    background-color: #ffffff5c;
+    border: 1px #ffffff69 solid;
+    padding: .75rem;
+    width: 100%;
+    border-radius: .5rem;
+    margin: .5rem 0;
+    padding-right: 1.5rem;
+    cursor: pointer;
+}
+
+li i.fas {
+    font-weight: 900;
+    color: #17a2b863;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.btn-outline-info {
+    background-color: #ffffff3d;
+}
+
+#btn-ir-lista, #btn-ir-lista a, i.fa-chevron-right {
+    -webkit-transition: .3s all ease-in;
+    -o-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+}
+
+#btn-ir-lista:hover a {
+    text-decoration: none;
+    color: white;
+}
+
+#btn-ir-lista a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+i.fa-chevron-right, i.fa-chevron-left {
+    font-size: 13px;
+    margin-left: .3rem;
+    margin-right: .2rem;
+    -webkit-transition: .3s all ease-in;
+    -o-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+}
+
+button:hover i.fa-chevron-right {
+    margin-left: .4rem;
+    margin-right: .1rem;
+}
+
+.fixed-add {
+    position: fixed;
+    bottom: 20px;
+    right: 1rem;
+}
+
+.modal-backdrop {
+    background-color: #3d324c;
+}
+
+.modal-backdrop.show {
+    opacity: .75;
+}
+
+.modal-content {
+    background-color: #fffffff0;
+    background-color: rgb(248, 247, 246);
+    border: white;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.modal h4 {
+    font-weight: 500;
+    color: #1c2833;
+    font-family: 'Fira sans', sans-serif;
+}
+
+.form-control:disabled, .form-control[readonly], .form-control:disabled:hover {
+    background-color: #aaddef6b;
+    color: #666;
+}
+
+.no-pointer li {
+    cursor: default !important;
+}
+.alert-tarea{
+    border: hsl(107, 23%, 34%) 1px dotted;
+    border-radius: 0;
+    background-color: #CDDC39;
+    color: hsl(107, 18%, 31%);
+    font-weight: 400;
+    box-shadow: #00000029 1px 1px 10px;
+    text-align: center;
+}
+
+
